@@ -12,7 +12,7 @@ for c in range(1,5+1):
     else:
         if peso > maior:
             maior = peso
-        if peso < maior:
+        if peso < menor:
             menor = peso
 print('O maior peso lido foi {}kg'.format(maior))
 print('O menor peso lido foi {}kg'.format(menor))
